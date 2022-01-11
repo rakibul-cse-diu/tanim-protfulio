@@ -1,0 +1,53 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header  */
+.container{
+    display: flex;
+    margin: 30px 60px;
+    justify-content: space-between;
+    text-align: center;
+}
+nav{
+    flex-grow: 1;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: lightslategray;
+    padding: 6px 14px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: #FCDA69;
+    color: black;
+}
+.search{
+    align-self: center;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 5px;
+}
+.search input{
+    border: none;
+    outline: none;
+    height: 30px;
+}
+.search .fas{
+    margin-left: 15px;
+}
