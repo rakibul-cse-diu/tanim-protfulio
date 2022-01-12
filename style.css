@@ -3,7 +3,15 @@
 
 /* Global */
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    margin: 30px 60px 100px 60px;
+    justify-content: space-between;
+    align-items: center;
 }
 .btn{
     padding: 10px 24px;
@@ -12,15 +20,21 @@
     font-size: 13px;
     font-weight: 500;
     border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn-btn{
+    padding: 10px 24px;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 /* Header  */
-.container{
-    display: flex;
-    margin: 30px 60px;
-    justify-content: space-between;
-    text-align: center;
-}
 nav{
     flex-grow: 1;
 }
@@ -71,4 +85,137 @@ nav ul li a:hover{
 .discription p{
     font-size: 18px;
     color: gray;
+}
+.btn-btn .fa-arrow-up{
+    transform: rotate(45deg);
+    transform-origin: bottom;
+    font-size: 24px;
+}
+
+/* service */
+.service{
+    background-color: #FCDA69;
+}
+.service .heading{
+    text-align: left;
+    margin: 80px 0;
+    width: 572px;
+    font-size: 28px;
+}
+.service .heading p{
+    font-size: 22px;
+}
+.service .content{
+    width: 50%;
+    margin: auto;
+}
+.service .content h1{
+    border-top: 1px solid rgb(31, 30, 30);
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+/* experiance */
+.experiance .container{
+    justify-content: space-between;
+    align-items: center;
+}
+.experiance .heading{
+    width: 40%;
+}
+.experiance .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experiance .content img{
+    width: 80%;
+}
+#skills-img{
+    width: 35%;
+    border-radius: 50%;
+}
+
+/* Projects */
+.projects{
+    background-color: #FCDA69;
+    padding: 30px 30px 0 30px;
+}
+.projects .container{
+    flex-direction: column;
+}
+.projects .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects .project{
+    padding: 20px;
+    margin: 30px;
+}
+.projects .project img{
+    width: 125%;
+}
+
+/* Reviews */
+.Reviews .container{
+    flex-direction: column;
+}
+.Reviews .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.Reviews .heading p{
+    width: 500px;
+    margin: 0 130px;
+}
+.Reviews .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Reviews .content p{
+    flex-grow: 1;
+    padding: 15px 0;
+    border: 1px solid rgb(31, 30, 30);
+    border-left: none;
+    border-right: none;
+}
+.Reviews .content img{
+    width: 40%;
+}
+
+/* Footer  */
+footer{
+    background-color: #FCDA69;
+    padding-top: 60px;
+}
+footer .container{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+footer .heading h1{
+    margin-bottom: 30px;
+}
+footer .heading p{
+    font-size: 14px;
+}
+footer .heading p span{
+    display: block;
+    color: gray;
+}
+.footer-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 15px 0 30px 0;
+    font-size: 12px;
+    border-top: 1px solid rgb(31, 30, 30);
 }
