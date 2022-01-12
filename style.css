@@ -5,6 +5,14 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.btn{
+    padding: 10px 24px;
+    background-color: #8873EF;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+}
 
 /* Header  */
 .container{
@@ -50,4 +58,17 @@ nav ul li a:hover{
 }
 .search .fas{
     margin-left: 15px;
+}
+
+/* top banner */
+.discription{
+    width: 50%;
+}
+.discription h1{
+    font-size: 65px;
+    text-align: left;
+}
+.discription p{
+    font-size: 18px;
+    color: gray;
 }
